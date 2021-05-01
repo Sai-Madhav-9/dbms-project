@@ -1,0 +1,1025 @@
+[{
+  "_id": {
+    "$oid": "605735249efddd33705df8a1"
+  },
+  "name": "black coffee",
+  "image": "Black coffee.jpeg",
+  "price": 20,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "605735649efddd33705df8a2"
+  },
+  "name": "coffee",
+  "image": "Coffee.jpeg",
+  "price": 10,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "605735ad9efddd33705df8a3"
+  },
+  "name": "Diet coke",
+  "image": "Diet coke.jpeg",
+  "price": 40,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "605735cd9efddd33705df8a4"
+  },
+  "name": "Green tea",
+  "image": "Green tea.jpeg",
+  "price": 20,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "605735fc9efddd33705df8a5"
+  },
+  "name": "Irani chai",
+  "image": "Irani chai.jpeg",
+  "price": 15,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "605736139efddd33705df8a6"
+  },
+  "name": "Lemon tea",
+  "image": "Lemon tea.jpeg",
+  "price": 20,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "605736289efddd33705df8a7"
+  },
+  "name": "Maaza",
+  "image": "Maaza.jpeg",
+  "price": 20,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "605736499efddd33705df8a8"
+  },
+  "name": "Mirinda",
+  "image": "Mirinda.jpeg",
+  "price": 20,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "6057365f9efddd33705df8a9"
+  },
+  "name": "Sprite",
+  "image": "Sprite.jpeg",
+  "price": 20,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "605736749efddd33705df8aa"
+  },
+  "name": "Tandoori chai",
+  "image": "Tandoori chai.jpeg",
+  "price": 15,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "605736a49efddd33705df8ab"
+  },
+  "name": "Tea",
+  "image": "Tea.jpeg",
+  "price": 10,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "605736cd9efddd33705df8ac"
+  },
+  "name": "Thumbs up ",
+  "image": "Thumbs up.jpeg",
+  "price": 20,
+  "category": "Drinks"
+},{
+  "_id": {
+    "$oid": "605737749efddd33705df8ad"
+  },
+  "name": "Bamboo chicken biryani",
+  "image": "Bamboo chicken biryani.jpeg",
+  "price": 250,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "605737a49efddd33705df8ae"
+  },
+  "name": "Chicken dum Biryani",
+  "image": "Chicken dum_Biryani.jpg",
+  "price": 200,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "605737cb9efddd33705df8af"
+  },
+  "name": "Chicken special biryani ",
+  "image": "Chocken special biryani.jpeg",
+  "price": 250,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "605737e99efddd33705df8b0"
+  },
+  "name": "Egg biryani",
+  "image": "Eggbiryani.jpeg",
+  "price": 150,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "605738059efddd33705df8b1"
+  },
+  "name": "Fish biryani",
+  "image": "Fishbiryani.jpeg",
+  "price": 250,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "605738329efddd33705df8b2"
+  },
+  "name": "hyderabadi vegetable biryani",
+  "image": "hyderabadi-vegetable-biryani-recipe.jpg",
+  "price": 150,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "605738f89efddd33705df8b3"
+  },
+  "name": "Kunda biryani",
+  "image": "Kunda biryani.jpeg",
+  "price": 250,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "6057391d9efddd33705df8b4"
+  },
+  "name": "Mughalai chicken Biryani",
+  "image": "Mughalai chicken-Biryani.jpg",
+  "price": 250,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "605739479efddd33705df8b5"
+  },
+  "name": "Mutton dum biryani",
+  "image": "Mutton dum biryani.jpeg",
+  "price": 300,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "605739679efddd33705df8b6"
+  },
+  "name": "Mutton kheema biryani",
+  "image": "Mutton kheema biryani.jpeg",
+  "price": 300,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "605739969efddd33705df8b7"
+  },
+  "name": "mutton biryani",
+  "image": "mutton-biryani_625x350_81452757223.jpg",
+  "price": 300,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "605739d89efddd33705df8b8"
+  },
+  "name": "Rayalseema chicken biryani",
+  "image": "Rayalseema chicken biryani.jpeg",
+  "price": 250,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "60573a009efddd33705df8b9"
+  },
+  "name": "Prawns biryani",
+  "image": "Prawns biryani.jpeg",
+  "price": 300,
+  "category": "Biryanis"
+},{
+  "_id": {
+    "$oid": "60573aae9efddd33705df8ba"
+  },
+  "name": "Chicken butter masala",
+  "image": "Chicken butter masala.jpeg",
+  "price": 200,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573b2b9efddd33705df8bb"
+  },
+  "name": "Chicken curry",
+  "image": "Chicken curry.jpeg",
+  "price": 200,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573b7e9efddd33705df8bc"
+  },
+  "name": "Chicken fry",
+  "image": "Chicken fry.jpeg",
+  "price": 200,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573b989efddd33705df8bd"
+  },
+  "name": "Chicken rayalseema",
+  "image": "Chicken rayalseema.jpeg",
+  "price": 200,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573bbc9efddd33705df8be"
+  },
+  "name": "Chicken roast",
+  "image": "Chicken roast.jpeg",
+  "price": 180,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573bdb9efddd33705df8bf"
+  },
+  "name": "Egg burji",
+  "image": "Egg burji.jpeg",
+  "price": 100,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573bf59efddd33705df8c0"
+  },
+  "name": "Egg curry",
+  "image": "Egg curry.jpeg",
+  "price": 100,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573c139efddd33705df8c1"
+  },
+  "name": "Egg fry",
+  "image": "Eggfry.jpeg",
+  "price": 100,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573c2c9efddd33705df8c2"
+  },
+  "name": "Fish fry",
+  "image": "Fish fry.jpeg",
+  "price": 200,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573c6b9efddd33705df8c3"
+  },
+  "name": "Mix veg curry",
+  "image": "Mix veg curry.jpeg",
+  "price": 180,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573c829efddd33705df8c4"
+  },
+  "name": "Mughalai chickem curry",
+  "image": "Mughalai chickem curry.jpeg",
+  "price": 200,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573c999efddd33705df8c5"
+  },
+  "name": "Mushroom curry",
+  "image": "Mushroom curry.jpeg",
+  "price": 180,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573cb59efddd33705df8c6"
+  },
+  "name": "Mutton curry",
+  "image": "Mutton curry.jpeg",
+  "price": 250,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573ce09efddd33705df8c7"
+  },
+  "name": "Mutton kheema",
+  "image": "Mutton kheema.jpeg",
+  "price": 250,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573cf79efddd33705df8c8"
+  },
+  "name": "Paneer buttur masala",
+  "image": "Paneer buttur masala.jpeg",
+  "price": 200,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573d2a9efddd33705df8c9"
+  },
+  "name": "Prawns curry",
+  "image": "Prawns curry.jpeg",
+  "price": 230,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573d469efddd33705df8ca"
+  },
+  "name": "Sp chicken curry",
+  "image": "Sp chicken curry.jpeg",
+  "price": 200,
+  "category": "curries"
+},{
+  "_id": {
+    "$oid": "60573dca9efddd33705df8cb"
+  },
+  "name": "Black current",
+  "image": "Black current.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573dec9efddd33705df8cc"
+  },
+  "name": "Black forest cake ",
+  "image": "Black forest cake.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573e399efddd33705df8cd"
+  },
+  "name": "Black current milkshake",
+  "image": "Blackcurrent milkshake.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573e649efddd33705df8ce"
+  },
+  "name": "Blueberry cheese cake",
+  "image": "Blueberry cheese cake.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573e829efddd33705df8cf"
+  },
+  "name": "Butterscotch",
+  "image": "Butterscotch.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573e999efddd33705df8d0"
+  },
+  "name": "Caramel milkshake",
+  "image": "Caramel milkshake.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573eae9efddd33705df8d1"
+  },
+  "name": "Choclate milkshake",
+  "image": "Choclate milkshake.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573ec39efddd33705df8d2"
+  },
+  "name": "Choclate",
+  "image": "Choclate.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573ede9efddd33705df8d3"
+  },
+  "name": "Pinacolada",
+  "image": "Pinacolada.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573ef29efddd33705df8d4"
+  },
+  "name": "Pista",
+  "image": "Pista.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573f039efddd33705df8d5"
+  },
+  "name": "Raspberry milkshake",
+  "image": "Raspberry milkshake.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573f159efddd33705df8d6"
+  },
+  "name": "Red velvet",
+  "image": "Red velvet.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573f8e9efddd33705df8d7"
+  },
+  "name": "Straberry cake",
+  "image": "Straberry cake.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573fa89efddd33705df8d8"
+  },
+  "name": "Straberry icecream",
+  "image": "Straberry icecream.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573fda9efddd33705df8d9"
+  },
+  "name": "Straberry milkshake",
+  "image": "Straberry milkshake.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "60573feb9efddd33705df8da"
+  },
+  "name": "Vannila cake",
+  "image": "Vannila cake.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "605740069efddd33705df8db"
+  },
+  "name": "Vannilla",
+  "image": "Vannilla.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "605740139efddd33705df8dc"
+  },
+  "name": "Vennila milkshake",
+  "image": "Vennila milkshake.jpeg",
+  "price": 100,
+  "category": "Desserts"
+},{
+  "_id": {
+    "$oid": "6057406b9efddd33705df8dd"
+  },
+  "name": "Butter naan",
+  "image": "Butter naan.jpeg",
+  "price": 40,
+  "category": "Breads"
+},{
+  "_id": {
+    "$oid": "6057408a9efddd33705df8de"
+  },
+  "name": "Chapathi",
+  "image": "Chapathi.jpeg",
+  "price": 30,
+  "category": "Breads"
+},{
+  "_id": {
+    "$oid": "6057409d9efddd33705df8df"
+  },
+  "name": "Parota",
+  "image": "Parota.jpeg",
+  "price": 30,
+  "category": "Breads"
+},{
+  "_id": {
+    "$oid": "605740c89efddd33705df8e0"
+  },
+  "name": "Pulka",
+  "image": "Pulka.jpeg",
+  "price": 30,
+  "category": "Breads"
+},{
+  "_id": {
+    "$oid": "605741249efddd33705df8e1"
+  },
+  "name": "cream of mushroom soup",
+  "image": "cream-of-mushroom-soup-recipe1-580x580.jpg",
+  "price": 100,
+  "category": "soups"
+},{
+  "_id": {
+    "$oid": "6057415f9efddd33705df8e2"
+  },
+  "name": "spinach soup",
+  "image": "spinach-soup-500x500.jpg",
+  "price": 100,
+  "category": "soups"
+},{
+  "_id": {
+    "$oid": "6057417e9efddd33705df8e3"
+  },
+  "name": "tomato soup",
+  "image": "tomato-soup-recipe-580x580.jpg",
+  "price": 100,
+  "category": "soups"
+},{
+  "_id": {
+    "$oid": "605741af9efddd33705df8e4"
+  },
+  "name": "veg hot and sour soup",
+  "image": "veg-hot-and-sour-recipe-580x580.jpg",
+  "price": 100,
+  "category": "soups"
+},{
+  "_id": {
+    "$oid": "605741cf9efddd33705df8e5"
+  },
+  "name": "veg manchow soup",
+  "image": "veg-manchow-soup-580x580.jpg",
+  "price": 100,
+  "category": "soups"
+},{
+  "_id": {
+    "$oid": "605742209efddd33705df8e6"
+  },
+  "name": "Amish Chicken Corn Soup",
+  "image": "Amish-Chicken-Corn-Soup_EXPS_CWFM18_31049_B10_13_5b.jpg",
+  "price": 150,
+  "category": "soups"
+},{
+  "_id": {
+    "$oid": "605742699efddd33705df8e7"
+  },
+  "name": "Asian Chicken Noodle Soup",
+  "image": "Asian-Chicken-Noodle-Soup_EXPS_SSMZ20_49615_E10_08_6b-1.jpg",
+  "price": 150,
+  "category": "soups"
+},{
+  "_id": {
+    "$oid": "605742909efddd33705df8e8"
+  },
+  "name": "Buffalo Chicken Wing Soup",
+  "image": "Buffalo-Chicken-Wing-Soup_EXPS_CWFM17_15953_D10_12_8b.jpg",
+  "price": 150,
+  "category": "soups"
+},{
+  "_id": {
+    "$oid": "605742b79efddd33705df8e9"
+  },
+  "name": "Creamy Chicken Rice Soup",
+  "image": "Creamy-Chicken-Rice-Soup_EXPS_SDFM19_29218_C10_18_4b-2.jpg",
+  "price": 150,
+  "category": "soups"
+},{
+  "_id": {
+    "$oid": "605742e29efddd33705df8ea"
+  },
+  "name": "Chicken Dumpling Soup",
+  "image": "Grandma-s-Chicken-n-Dumpling-Soup_EXPS_CHBZ19_5165_C10_24_4b-10.jpg",
+  "price": 150,
+  "category": "soups"
+},{
+  "_id": {
+    "$oid": "6057431f9efddd33705df8eb"
+  },
+  "name": "Vietnamese Chicken Meatball Soup",
+  "image": "Vietnamese-Chicken-Meatball-Soup-with-Bok-Choy_EXPS_TOHFM20_198499_E07_10_4b-3.jpg",
+  "price": 150,
+  "category": "soups"
+},{
+  "_id": {
+    "$oid": "605743b99efddd33705df8ec"
+  },
+  "name": "aloo chaat",
+  "image": "aloo-chaat.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605744029efddd33705df8ed"
+  },
+  "name": "aloo tikki frankie",
+  "image": "aloo-tikki-frankie.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605744239efddd33705df8ee"
+  },
+  "name": "aloo tikki",
+  "image": "aloo-tikki-recipe-3ah.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "6057444a9efddd33705df8ef"
+  },
+  "name": "bhel puri",
+  "image": "bhel-puri-recipe-3a.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "6057446d9efddd33705df8f0"
+  },
+  "name": "veg sandwich",
+  "image": "bombay-veg-sandwich-recipe-22.jpg",
+  "price": 80,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605744b69efddd33705df8f1"
+  },
+  "name": "bread pakoda",
+  "image": "bread-pakoda-recipe-0.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605744e79efddd33705df8f2"
+  },
+  "name": "cauliflower manchurian",
+  "image": "cauliflower-manchurian-recipe-4.jpg",
+  "price": 80,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "6057451e9efddd33705df8f3"
+  },
+  "name": "cheese balls",
+  "image": "cheese-balls-recipes-6.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "6057454f9efddd33705df8f4"
+  },
+  "name": "chilli potato",
+  "image": "chilli-potato-recipe-1a.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "6057458e9efddd33705df8f5"
+  },
+  "name": "dahi sev batata puri",
+  "image": "dahi-sev-batata-puri-recipes-2.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605746309efddd33705df8f6"
+  },
+  "name": "dahi vada",
+  "image": "dahi-vada-recipe-90.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "6057464b9efddd33705df8f7"
+  },
+  "name": "french fries",
+  "image": "french-fries-homemade.jpg",
+  "price": 80,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605746789efddd33705df8f8"
+  },
+  "name": "gobi 65",
+  "image": "gobi-65-recipe-3.jpg",
+  "price": 80,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "6057469b9efddd33705df8f9"
+  },
+  "name": "dhokla",
+  "image": "khaman-dhokla-recipe-12.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605746be9efddd33705df8fa"
+  },
+  "name": "kachori",
+  "image": "khasta-kachori-recipe-2.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605746d79efddd33705df8fb"
+  },
+  "name": "onion pakoda",
+  "image": "onion-pakoda-recipe.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605746f99efddd33705df8fc"
+  },
+  "name": "pani puri",
+  "image": "pani-puri-street-food-recipes-2.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605747199efddd33705df8fd"
+  },
+  "name": "potato wedges",
+  "image": "potato-wedges.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605747399efddd33705df8fe"
+  },
+  "name": "ragda pattice",
+  "image": "ragda-pattice-ragda-patties-2.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605747509efddd33705df8ff"
+  },
+  "name": "samosa",
+  "image": "samosa-recipe-11.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "6057477a9efddd33705df900"
+  },
+  "name": "spring rolls",
+  "image": "spring-rolls-street-food-recipes-11.jpg",
+  "price": 70,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605747979efddd33705df901"
+  },
+  "name": "vada",
+  "image": "vada.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605747b19efddd33705df902"
+  },
+  "name": "vada pav",
+  "image": "vada-pav-recipe-0.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605747cd9efddd33705df903"
+  },
+  "name": "cutlet",
+  "image": "veg-cutlet-recipe-2.jpg",
+  "price": 50,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605747fa9efddd33705df904"
+  },
+  "name": "momos",
+  "image": "veg-momos-street-food-recipes-2.jpg",
+  "price": 60,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605749509efddd33705df905"
+  },
+  "name": "chicken kebab",
+  "image": "7tq5slvo_gilafi-kebab_625x300_20_July_20.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605749739efddd33705df906"
+  },
+  "name": "kandi mutton",
+  "image": "31recipe-kandi-mutton.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605749979efddd33705df907"
+  },
+  "name": "chicken frankie",
+  "image": "31recipe-mutton-frankie1.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "605749cd9efddd33705df908"
+  },
+  "name": "Apoloo fish fry",
+  "image": "Appoloo fish fry.jpeg",
+  "price": 250,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574a089efddd33705df909"
+  },
+  "name": "chicken sukka",
+  "image": "c0ljoepo_chicken-sukka_625x300_05_October_20.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574a379efddd33705df90a"
+  },
+  "name": "chettinad fish",
+  "image": "chettinad-fish_625x350_71469695663.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574a5d9efddd33705df90b"
+  },
+  "name": "Chicken tandoori",
+  "image": "Chicken tandoori.jpeg",
+  "price": 300,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574aaf9efddd33705df90c"
+  },
+  "name": "Chicken Shwarma",
+  "image": "Chicken_Shwarma_Recipe_.jpg",
+  "price": 100,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574ad79efddd33705df90d"
+  },
+  "name": "chicken 65",
+  "image": "chicken-65-1.jpg",
+  "price": 250,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574af89efddd33705df90e"
+  },
+  "name": "Chicken Cutlet",
+  "image": "Chicken-Cutlet.jpg",
+  "price": 150,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574b5a9efddd33705df90f"
+  },
+  "name": "Chicken Lollipop",
+  "image": "Chicken-Lollipop-5.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574b8d9efddd33705df910"
+  },
+  "name": "Chicken nudgets",
+  "image": "Chicken nudgets.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574bbc9efddd33705df911"
+  },
+  "name": "Chicken Pakora",
+  "image": "Chicken-Pakora.jpg",
+  "price": 100,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574be29efddd33705df912"
+  },
+  "name": "chicken shami kebab",
+  "image": "chicken-shami-kebab_620x350_51513671464.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574c069efddd33705df913"
+  },
+  "name": "chicken tikka",
+  "image": "chicken-tikka.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574c239efddd33705df914"
+  },
+  "name": "Chilli Chicken",
+  "image": "Chilli-Chicken.jpg",
+  "price": 250,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574c4a9efddd33705df915"
+  },
+  "name": "chicken wings",
+  "image": "ea87u0ao_chicken-wings_625x300_28_April_20.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574c769efddd33705df916"
+  },
+  "name": "seekh kebab",
+  "image": "fh5q21ko_seekh-kebab_625x300_08_July_20.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574c969efddd33705df917"
+  },
+  "name": "fish cutlets",
+  "image": "fish-cutlets_625x350_71469696011.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574cac9efddd33705df918"
+  },
+  "name": "fish fingers",
+  "image": "fish-fingers_625x350_61469695435.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574cc39efddd33705df919"
+  },
+  "name": "galouti kebab",
+  "image": "galouti-kebab_625x350_51506417223.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574cdf9efddd33705df91a"
+  },
+  "name": "Garlic Chicken",
+  "image": "Garlic-Chicken.jpg",
+  "price": 180,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574d0a9efddd33705df91b"
+  },
+  "name": "hariyali machchi",
+  "image": "hariyali-machchi_625x350_51469695719.jpg",
+  "price": 150,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574d5d9efddd33705df91c"
+  },
+  "name": "seekh mutton kebab",
+  "image": "ltupvfjg_seekh-kebab_625x300_18_May_20.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574d7a9efddd33705df91d"
+  },
+  "name": "masala pomfret",
+  "image": "masala-pomfret_625x350_61469694531.jpg",
+  "price": 200,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574d969efddd33705df91e"
+  },
+  "name": "mutton cutlet",
+  "image": "mutton-cutlet_625x350_41506417351.jpg",
+  "price": 150,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574dbc9efddd33705df91f"
+  },
+  "name": "sp chicken kebab",
+  "image": "os82jk14_kebab_625x300_13_August_20.jpg",
+  "price": 250,
+  "category": "starters"
+},{
+  "_id": {
+    "$oid": "60574de39efddd33705df920"
+  },
+  "name": "Chicken popcorn",
+  "image": "Popcorn-Chicken.jpg",
+  "price": 200,
+  "category": "starters"
+}]

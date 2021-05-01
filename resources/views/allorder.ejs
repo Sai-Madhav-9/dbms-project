@@ -1,0 +1,55 @@
+<section>
+  <div class="mx-auto w-1/2 overflow-hidden z-0 rounded-full relative p-3">
+    <form role="form" class="relative flex z-50 bg-white rounded-full">
+      <input type="text" id="search" placeholder="CLICK SEARCH BUTTON TO SEARCH"
+        class="rounded-full flex-1 px-6 py-4 text-gray-700 focus:outline-none">
+      <input type="button"
+        class="bg-indigo-500 text-white rounded-full font-semibold px-8 py-4 hover:bg-indigo-400 focus:bg-indigo-600 focus:outline-none"
+        id="submit_form" onclick="checkInput()" value="Search">
+    </form>
+    <div class="glow glow-1 z-10 bg-pink-400 absolute"></div>
+    <div class="glow glow-2 z-20 bg-purple-400 absolute"></div>
+    <div class="glow glow-3 z-30 bg-yellow-400 absolute"></div>
+    <div class="glow glow-4 z-40 bg-blue-400 absolute"></div>
+  </div>
+</section>
+<!--END SEARCH BOX -->
+<script>
+  function checkInput() {
+    var query = document.getElementById('search').value;
+    window.find(query);
+    return true;
+  }
+</script>
+
+<section class="mx-auto">
+  <div class="container mx-auto px-4 sm:px-8">
+    <div class="py-8">
+      <div>
+        <h2 class="text-2xl font-semibold leading-tight">All orders</h2>
+      </div>
+      <input id="AllOrders" type="hidden" value="<%= JSON.stringify(orders) %>">
+      <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+        <div class="inline-block min-w-full shadow-md rounded-lg overflow-hidden">
+          <table class="min-w-full leading-normal">
+            <thead>
+              <tr>
+                  <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Order ID</th>
+                  <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Customer ID</th>
+                  <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Phone Number</th>
+                  <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Address</th>
+                  <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">status</th>
+                  <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Payment Status</th>
+                  <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Placed at</th>
+                  <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Items</th>                  
+              </tr>
+          </thead>
+          <tbody id="AllordersTableBody">
+          </tbody>
+      </table>
+      
+        </div>
+      </div>
+    </div>
+
+</section>

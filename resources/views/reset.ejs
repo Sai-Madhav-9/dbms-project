@@ -1,0 +1,24 @@
+<div class="flex items-center justify-center bg-gray-50 py-4 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-md w-full space-y-8">
+      <div>
+        <h2 class="text-center text-3xl font-extrabold text-gray-900">
+          Enter new Password
+        </h2>
+      </div>
+      <form action="/auth/resetPassword" method="post" class=" mx-auto items-center justify-center bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <input type="hidden" name="userId" value="<%= JSON.stringify(id) %>">
+            <input type="hidden" name="token" value="<%= JSON.stringify(token) %>">
+
+            <div class="rounded-md shadow-sm -space-y-px"></div>
+                <input type="password" name="password" required placeholder="New password" class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm">
+           
+
+            <div class=" mx-auto items-center justify-center">
+                <button class="btn-primary px-6 py-2 rounded-full text-white font-bold mt-4" type="submit">Reset password</button>
+            </div>
+
+        </div>
+        </form>
+     
+    </div>
+</div>

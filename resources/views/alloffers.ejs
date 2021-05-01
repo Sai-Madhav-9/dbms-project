@@ -1,0 +1,177 @@
+
+
+
+
+<section>
+    <div class="mx-auto w-1/2 overflow-hidden z-0 rounded-full relative p-3">
+        <form role="form" class="relative flex z-50 bg-white rounded-full">
+          <input type="text" id="search" placeholder="CLICK SEARCH BUTTON TO SEARCH" class="rounded-full flex-1 px-6 py-4 text-gray-700 focus:outline-none">
+          <input type="button" class="bg-indigo-500 text-white rounded-full font-semibold px-8 py-4 hover:bg-indigo-400 focus:bg-indigo-600 focus:outline-none" id="submit_form" onclick="checkInput()" value="Search">
+        </form>
+        <div class="glow glow-1 z-10 bg-pink-400 absolute"></div>
+        <div class="glow glow-2 z-20 bg-purple-400 absolute"></div>
+        <div class="glow glow-3 z-30 bg-yellow-400 absolute"></div>
+        <div class="glow glow-4 z-40 bg-blue-400 absolute"></div>
+    </div>
+    </section> 
+    <!--END SEARCH BOX -->
+    <script>
+        function checkInput() {
+            var query = document.getElementById('search').value;
+            window.find(query);
+            return true;
+        }
+    </script>
+    
+    
+    
+    <section>
+        <div class="container mx-auto px-4 sm:px-8">
+            <div class="py-8">
+              <div>
+                <h2 class="text-2xl font-semibold leading-tight">ALL THE OFFERS LIST</h2>
+              </div>
+              <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+                <div
+                  class="inline-block min-w-full shadow-md rounded-lg overflow-hidden"
+                >
+                  <table class="min-w-full leading-normal">
+                    <thead>
+                      <tr>
+                        <th
+                        class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider"
+                      >
+                      Offer ID
+                      </th>
+                        <th
+                          class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider"
+                        >
+                        Initial Price
+                        </th>
+                        <th
+                          class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider"
+                        >
+                        Offers Price
+                        </th>
+                        <th
+                          class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider"
+                        >
+                          Date of Expiry
+                        </th>
+    
+                         <th
+                          class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider"
+                        >
+                        Item Name
+                        </th>
+    
+                        <th
+                        class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider"
+                      >
+                      Restaurant Name
+                      </th>
+                      
+                      <th
+                      class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider"
+                    >
+                      Item ID
+                    </th>
+   
+                    <th
+                    class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider"
+                  >
+                  Date at which offer is set
+                  </th>
+
+                        <th
+                          class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100"
+                        ></th>
+                      </tr>
+                    </thead>
+    
+    
+                    <tbody>
+                      <tr>
+    
+                        <% offers.forEach(function(offer){ %>
+                     
+                            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                <p class="text-gray-900 whitespace-no-wrap"><%= offer._id%> </p>
+                               
+                              </td>
+          
+    
+                        <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <p class="text-gray-900 whitespace-no-wrap"><%= offer.initialprice%> </p>
+                         
+                        </td>
+    
+                        <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <p class="text-gray-900 whitespace-no-wrap"> <%= offer.offerprice%></p>
+                         
+                        </td>
+    
+                        <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <span
+                            class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
+                          >
+                            <span
+                              aria-hidden
+                              class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
+                            ></span>
+                            <span class="relative"><%= offer.dateofexpiry %></span>
+                          </span>
+                        </td>
+    
+                        <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                            <span
+                              class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
+                            >
+                              <span
+                                aria-hidden
+                                class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
+                              ></span>
+                              <span class="relative"><%= offer.itemname%></span>
+                            </span>
+                          </td>
+    
+                    </td>
+
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <p class="text-gray-900 whitespace-no-wrap"><%= offer.restname%></p>
+                     
+                    </td>
+    
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                        <p class="text-gray-900 whitespace-no-wrap"><%= offer.itemid%></p>
+                       
+                      </td>
+    
+                      <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                        <p class="text-gray-900 whitespace-no-wrap"><%= offer.createdAt%></p>
+                       
+                      </td>
+      
+                    
+    
+    
+    
+                        <td
+                          class="px-5 py-5 border-b border-gray-200 bg-white text-sm text-right"
+                        > 
+                        </td>
+                      </tr>
+                     
+                      
+                    
+                   
+                         
+                      </tr>
+                    </tbody>
+                    <%} )%>
+                  </table>
+                </div>
+              </div>
+            </div>
+          
+    </section>

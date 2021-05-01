@@ -1,0 +1,416 @@
+
+<!--BEGIN SEARCH BOX -->
+
+ 
+<div class="mx-auto w-1/2 overflow-hidden z-0 rounded-full relative p-3">
+    <form role="form" class="relative flex z-50 bg-white rounded-full">
+      <input type="text" id="search" placeholder="CLICK SEARCH BUTTON TO SEARCH" class="rounded-full flex-1 px-6 py-4 text-gray-700 focus:outline-none">
+      <input type="button" class="bg-indigo-500 text-white rounded-full font-semibold px-8 py-4 hover:bg-indigo-400 focus:bg-indigo-600 focus:outline-none" id="submit_form" onclick="checkInput()" value="Search">
+    </form>
+    <div class="glow glow-1 z-10 bg-pink-400 absolute"></div>
+    <div class="glow glow-2 z-20 bg-purple-400 absolute"></div>
+    <div class="glow glow-3 z-30 bg-yellow-400 absolute"></div>
+    <div class="glow glow-4 z-40 bg-blue-400 absolute"></div>
+</div>
+  
+<!--END SEARCH BOX -->
+<script>
+    function checkInput() {
+        var query = document.getElementById('search').value;
+        window.find(query);
+        return true;
+    }
+</script>
+
+<script>
+    function showElement() {
+             element = document.querySelector('.f');
+             element.style.display = 'block';
+
+             hideElement1();
+             hideElement2();
+             hideElement3();
+             hideElement4();
+             hideElement5();
+             hideElement6();
+         }
+   
+         function hideElement() {
+             element = document.querySelector('.f');
+             element.style.display = 'none';
+         }
+   
+         function showElement1() {
+             element = document.querySelector('.b');
+             element.style.display = 'block';
+             hideElement();
+             hideElement2();
+             hideElement3();
+             hideElement4();
+             hideElement5();
+             hideElement6();
+         }
+   
+         function hideElement1() {
+             element = document.querySelector('.b');
+             element.style.display = 'none';
+         }
+   
+         
+         function showElement2() {
+             element = document.querySelector('.c');
+             element.style.display = 'block';
+             hideElement1();
+             hideElement();
+             hideElement3();
+             hideElement4();
+             hideElement5();
+             hideElement6();
+         }
+   
+         function hideElement2() {
+             element = document.querySelector('.c');
+             element.style.display = 'none';
+         }
+   
+         function showElement3() {
+             element = document.querySelector('.d');
+             element.style.display = 'block';
+             hideElement1();
+             hideElement2();
+             hideElement();
+             hideElement4();
+             hideElement5();
+             hideElement6();
+         }
+   
+         function hideElement3() {
+             element = document.querySelector('.d');
+             element.style.display = 'none';
+         }
+         function showElement4() {
+             element = document.querySelector('.e');
+             element.style.display = 'block';
+             hideElement1();
+             hideElement2();
+             hideElement3();
+             hideElement();
+             hideElement5();
+             hideElement6();
+         }
+   
+         function hideElement4() {
+             element = document.querySelector('.e');
+             element.style.display = 'none';
+         }
+         function showElement5() {
+             element = document.querySelector('.o');
+             element.style.display = 'block';
+             hideElement1();
+             hideElement2();
+             hideElement3();
+             hideElement4();
+             hideElement();
+             hideElement6();
+         }
+   
+         function hideElement5() {
+             element = document.querySelector('.o');
+             element.style.display = 'none';
+         }
+         function showElement6() {
+             element = document.querySelector('.i');
+             element.style.display = 'block';
+             hideElement1();
+             hideElement2();
+             hideElement3();
+             hideElement4();
+             hideElement5();
+             hideElement();
+         }
+   
+         function hideElement6() {
+             element = document.querySelector('.i');
+             element.style.display = 'none';
+         }
+
+         function hideAllElement() {
+             hideElement();
+            hideElement1();
+             hideElement2();
+             hideElement3();
+             hideElement4();
+             hideElement5();
+             hideElement6();
+         }
+     </script>
+
+
+<section class="filter mt-10 mx-auto xl:w-4/5 py-8">
+   <div class="flex justify-between">
+        <button onclick="showElement5()" class="btn-primary font-semibold py-2 px-4 rounded " > Limited Time Offers </button>
+        <button onclick="showElement4()" class="btn-primary font-semibold py-2 px-4 rounded " >201-350rs</button>
+        <button onclick="showElement()" class="btn-primary font-semibold py-2 px-4 rounded " >150-200rs</button>
+        <button onclick="showElement1()" class="btn-primary font-semibold py-2 px-4 rounded">100-149rs</button>
+        <button onclick="showElement2()" class="btn-primary font-semibold py-2 px-4 rounded">50-99rs</button>
+        <button onclick="showElement3()" class="btn-primary font-semibold py-2 px-4 rounded">0-49rs</button>
+        <button onclick="hideAllElement()" class="btn-primary font-semibold py-2 px-4 rounded">Show all</button>
+   </div> 
+  
+  <div class="o" style="display: none;" >
+    <h1 class="text-xl font-bold ml-4 mt-10 border-b border-gray mr-40">Limted Time Offers</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+        <% foods.forEach(function(food){ if(food.price == "300" || food.price == "200"|| food.price == "250"){%>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class="flex-1 pl-2 font-bold  text-sm">₹<s><%=food.price + 38%></s> ₹<%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+  
+  </div>
+  
+  
+  
+  <div class="e" style="display: none;" >
+    <h1 class="text-xl font-bold ml-4 mt-10 border-b border-gray mr-40">COST RANGE :201 TO 350 RUPEES</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+        <% foods.forEach(function(food){ if(food.price >= 201 && food.price <=350){%>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class="flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+  
+  </div>
+  
+  
+  
+      <div class="f" style="display: none;" >
+   <h1 class="text-xl font-bold ml-4 mt-10 border-b border-gray mr-40">COST RANGE :150 TO 200 RUPEES</h1>
+   <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+       <% foods.forEach(function(food){ if(food.price >= 150 && food.price<=200){%>
+           <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+               <div>
+                   <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                   <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+               </div>
+               <div class="flex justify-center">
+                   <span class="flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                   <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+               </div>
+           </div>
+       <%} } )%>
+   </div>
+  
+  </div>
+  
+  
+  <div class="b" style="display: none;" >
+    <h1 class="text-xl font-bold ml-4 mt-10 border-b border-gray mr-40">COST RANGE :100 TO 149 RUPEES</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6" >
+        <% foods.forEach(function(food){ if(food.price >= 100 && food.price<=149){%>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class="flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+  
+  </div>
+  
+  
+  <div class="c" style="display: none;" >
+    <h1 class="text-xl font-bold ml-4 mt-10 border-b border-gray mr-40">COST RANGE :50 TO 99 RUPEES</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6" >
+        <% foods.forEach(function(food){ if(food.price >= 50 && food.price<=99){%>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class="flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+  
+  </div>
+  
+  
+  <div class="d" style="display: none;" >
+    <h1 class="text-xl font-bold ml-4 mt-10 border-b border-gray mr-40">COST RANGE : 0 TO 49 RUPEES</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+        <% foods.forEach(function(food){ if(food.price >= 0 && food.price<=49){%>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class="flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+  
+  </div>
+  
+  
+  
+  
+  
+  <div class="i" style="display: none;" >
+    <h1 class="text-xl font-bold ml-4 mt-10 border-b border-gray mr-40">ITEMS INFORMATION</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+        <% foods.forEach(function(food){ if(food.price >= 0){%>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class=" flex-1 pl-2 text-xs"><%= food._id%></span><br>
+                    <div>
+                    <span class="flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                </div>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+  
+  </div>
+  
+</section>
+
+
+<section class="menu container mx-auto xl:w-4/5 py-4">
+    <h1 class="text-xl font-bold ml-4 border-b border-gray mr-40">Drinks</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+        <% foods.forEach(function(food){ if(food.category =="Drinks"){%>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class=" flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+    <h1 class="text-xl font-bold ml-4 border-b border-gray mr-40">Biryanis</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+        <% foods.forEach(function(food){ if ( food.category == "Biryanis"){ %>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class=" flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+    <h1 class="text-xl font-bold ml-4 border-b border-gray mr-40">Curries</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+        <% foods.forEach(function(food){ if ( food.category == "curries"){ %>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class=" flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+    <h1 class="text-xl font-bold ml-4 border-b border-gray mr-40">Desserts and Milk Shakes</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+        <% foods.forEach(function(food){ if ( food.category == "Desserts"){ %>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class=" flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+    <h1 class="text-xl font-bold ml-4 border-b border-gray mr-40">Breads</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+        <% foods.forEach(function(food){ if ( food.category == "Breads"){ %>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class=" flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+    <h1 class="text-xl font-bold ml-4 border-b border-gray mr-40">Soups</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+        <% foods.forEach(function(food){ if ( food.category == "soups"){ %>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class=" flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+    <h1 class="text-xl font-bold ml-4 border-b border-gray mr-40">Starters</h1>
+    <div class="mb-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pt-6">
+        <% foods.forEach(function(food){ if ( food.category == "starters"){ %>
+            <div class="mx-auto shadow-2xl p-1 rounded-lg items-center">
+                <div>
+                    <img class="w-40 h-32 rounded-lg" src="/img/food/<%= food.image%>" alt="">
+                    <h1 class="font-bold pl-2 text-sm"><%= food.name%></h1>
+                </div>
+                <div class="flex justify-center">
+                    <span class=" flex-1 pl-2 font-bold  text-sm">₹ <%= food.price%></span>
+                    <button data-food="<%= JSON.stringify(food)%>" class="flex-1 add-to-cart btn-primary text-center rounded-full">Add</button>
+                </div>
+            </div>
+        <%} } )%>
+    </div>
+    
+</section>
